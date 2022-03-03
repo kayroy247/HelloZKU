@@ -1,4 +1,4 @@
-# Advanced Sample Hardhat Project
+# Hello ZKU assignment with forking bsc mainnet and impersonating a whale account.
 
 This project demonstrates an advanced Hardhat use case, integrating other tools commonly used alongside Hardhat in the ecosystem.
 
