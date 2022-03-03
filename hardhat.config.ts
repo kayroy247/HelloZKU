@@ -25,6 +25,13 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 const config: HardhatUserConfig = {
   solidity: "0.8.12",
   networks: {
+    hardhat: {
+      chainId: 56,
+      gas: 2100000,
+      forking: {
+        url: "https://speedy-nodes-nyc.moralis.io/de342afd4095f38f3d349081/bsc/mainnet/archive",
+      },
+    },
     ropsten: {
       url: process.env.ROPSTEN_URL || "",
       accounts:
