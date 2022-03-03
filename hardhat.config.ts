@@ -27,7 +27,7 @@ const config: HardhatUserConfig = {
   networks: {
     hardhat: {
       forking: {
-        url: "https://speedy-nodes-nyc.moralis.io/de342afd4095f38f3d349081/bsc/mainnet/archive",
+        url: `https://speedy-nodes-nyc.moralis.io/${process.env.MORALIS}/bsc/mainnet/archive`,
       },
     },
     ropsten: {
